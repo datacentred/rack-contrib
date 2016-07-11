@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
   s.name    = 'rack-contrib'
-  s.version = GVB.version rescue "0.0.0.1.ENOGVB"
+  s.version = '1.5.0'
   s.date    = GVB.date    rescue Time.now.strftime("%F")
 
   s.licenses = ['MIT']
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   # REMINDER: If you modify any dependencies, please ensure you
   # update `test/gemfiles/minimum_versions`!
   #
-  s.add_runtime_dependency 'rack', '~> 1.4'
+  s.add_runtime_dependency 'rack', '~> 2.0'
   s.add_runtime_dependency 'git-version-bump', '~> 0.15'
 
   s.add_development_dependency 'bundler', '~> 1.0'
