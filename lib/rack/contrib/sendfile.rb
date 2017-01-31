@@ -1,9 +1,9 @@
 require 'rack/file'
 
 module Rack
-  class File #:nodoc:
-    alias :to_path :path
-  end
+  # class File #:nodoc:
+  #   alias :to_path :path
+  # end
 
   # = Sendfile
   #
